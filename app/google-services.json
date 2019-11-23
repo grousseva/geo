@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "488464902643",
+    "firebase_url": "https://groussevageopictures.firebaseio.com",
+    "project_id": "groussevageopictures",
+    "storage_bucket": "groussevageopictures.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488464902643:android:f68390fe83d6280c0f8a86",
+        "android_client_info": {
+          "package_name": "edu.ucsb.cs.cs184.grousseva.groussevageopictures"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488464902643-b0166njb12u8i6ekis61bfa401887jr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucsb.cs.cs184.grousseva.groussevageopictures",
+            "certificate_hash": "1ea037ca236cc103e4279109fd075cf07e9bf282"
+          }
+        },
+        {
+          "client_id": "488464902643-t1k5rl9h106oq0nojn18076esjr4udlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9n-yu3GMPdR-elxgd1f43-MrEoBjEFWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488464902643-t1k5rl9h106oq0nojn18076esjr4udlr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

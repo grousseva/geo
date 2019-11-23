@@ -1,0 +1,259 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.ucsb.cs.cs184.grousseva.groussevageopictures"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:11:5-81
+17-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:12:5-66
+18-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:13:5-79
+19-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:14:5-79
+20-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:14:22-76
+21
+22    <uses-feature
+22-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:17:5-78
+23        android:glEsVersion="0x00020000"
+23-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:17:19-51
+24        android:required="true" />
+24-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:17:52-75
+25
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/7023ac81aae0a4dff1323f4537350ab1/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
+26-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/7023ac81aae0a4dff1323f4537350ab1/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
+27-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+29
+30    <application
+30-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:19:5-49:19
+31        android:allowBackup="true"
+31-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:20:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/9b282167d5edf2ce15b1570bf9b055c0/core-1.1.0/AndroidManifest.xml:24:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:21:9-43
+34        android:label="@string/app_name"
+34-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:22:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:23:9-54
+36        android:supportsRtl="true"
+36-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:24:9-35
+37        android:theme="@style/AppTheme" >
+37-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:25:9-40
+38
+39        <!--
+40             The API key for Google Maps-based APIs is defined as a string resource.
+41             (See the file "res/values/google_maps_api.xml").
+42             Note that the API key is linked to the encryption key used to sign the APK.
+43             You need a different API key for each encryption key, including the release key that is used to
+44             sign the APK for publishing.
+45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+46        -->
+47        <meta-data
+47-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:35:9-37:55
+48            android:name="com.google.android.geo.API_KEY"
+48-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:36:13-58
+49            android:value="@string/google_maps_key" />
+49-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:37:13-52
+50
+51        <activity
+51-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:39:9-48:20
+52            android:name="edu.ucsb.cs.cs184.grousseva.groussevageopictures.MapsActivity"
+52-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:40:13-41
+53            android:configChanges="orientation|screenSize"
+53-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:42:13-59
+54            android:label="@string/title_activity_maps" >
+54-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:41:13-56
+55            <intent-filter>
+55-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:43:13-47:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:44:17-69
+56-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:44:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:46:17-77
+58-->/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/src/main/AndroidManifest.xml:46:27-74
+59            </intent-filter>
+60        </activity>
+61        <!-- Needs to be explicitly declared on P+ -->
+62        <uses-library
+62-->[com.google.android.gms:play-services-maps:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/a80e9edbb7b0bb80f4cd03e2f573e1f2/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+63            android:name="org.apache.http.legacy"
+63-->[com.google.android.gms:play-services-maps:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/a80e9edbb7b0bb80f4cd03e2f573e1f2/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+64            android:required="false" />
+64-->[com.google.android.gms:play-services-maps:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/a80e9edbb7b0bb80f4cd03e2f573e1f2/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+65
+66        <activity
+66-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+67            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+67-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+68            android:excludeFromRecents="true"
+68-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+69            android:exported="true"
+69-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+70            android:launchMode="singleTask"
+70-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+71            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+71-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+73
+74        <service
+74-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+77            <meta-data
+77-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+78                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+78-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-auth:16.0.5] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/52f72276e177fdfda206810beb2af85f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/7023ac81aae0a4dff1323f4537350ab1/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+81                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+81-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/7023ac81aae0a4dff1323f4537350ab1/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/7023ac81aae0a4dff1323f4537350ab1/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+84                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+84-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+86        </service>
+87
+88        <receiver
+88-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+89            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+89-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+90            android:enabled="true"
+90-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+92        </receiver>
+93        <receiver
+93-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+94            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+94-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+95            android:enabled="true"
+95-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+96            android:exported="true"
+96-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+97            android:permission="android.permission.INSTALL_PACKAGES" >
+97-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+98            <intent-filter>
+98-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+99                <action android:name="com.android.vending.INSTALL_REFERRER" />
+99-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
+99-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+100            </intent-filter>
+101        </receiver>
+102
+103        <service
+103-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+104            android:name="com.google.android.gms.measurement.AppMeasurementService"
+104-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+105            android:enabled="true"
+105-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+106            android:exported="false" />
+106-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+107        <service
+107-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+108            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+108-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+109            android:enabled="true"
+109-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+110            android:exported="false"
+110-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+111            android:permission="android.permission.BIND_JOB_SERVICE" />
+111-->[com.google.firebase:firebase-analytics:16.0.4] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/2d96acd064006b0673090581a6455bc2/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+112
+113        <receiver
+113-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+114            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+114-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+115            android:exported="true"
+115-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+116            android:permission="com.google.android.c2dm.permission.SEND" >
+116-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+117            <intent-filter>
+117-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+118                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+118-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
+118-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+119            </intent-filter>
+120        </receiver>
+121        <!--
+122             FirebaseInstanceIdService performs security checks at runtime,
+123             no need for explicit permissions despite exported="true"
+124        -->
+125        <service
+125-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+126            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+126-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+127            android:exported="true" >
+127-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+128            <intent-filter android:priority="-500" >
+128-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+128-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+129                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+129-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+129-->[com.google.firebase:firebase-iid:17.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/ea9f47ad5d60574b18c177c1586a5a7e/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+130            </intent-filter>
+131        </service>
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:16.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/b9d9bdddb38519d76ceb47af1aac194a/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:16.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/b9d9bdddb38519d76ceb47af1aac194a/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+140            android:authorities="edu.ucsb.cs.cs184.grousseva.groussevageopictures.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:16.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/b9d9bdddb38519d76ceb47af1aac194a/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+141            android:exported="false"
+141-->[com.google.firebase:firebase-common:16.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/b9d9bdddb38519d76ceb47af1aac194a/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+142            android:initOrder="100" />
+142-->[com.google.firebase:firebase-common:16.0.3] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/b9d9bdddb38519d76ceb47af1aac194a/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+143
+144        <meta-data
+144-->[com.google.android.gms:play-services-basement:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/e4ad7169e26af9e7f6914692b8908ffa/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+145            android:name="com.google.android.gms.version"
+145-->[com.google.android.gms:play-services-basement:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/e4ad7169e26af9e7f6914692b8908ffa/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+146            android:value="@integer/google_play_services_version" />
+146-->[com.google.android.gms:play-services-basement:17.0.0] /Users/glennierousseva/.gradle/caches/transforms-2/files-2.1/e4ad7169e26af9e7f6914692b8908ffa/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+147    </application>
+148
+149</manifest>

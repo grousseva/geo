@@ -1,0 +1,4 @@
+#Thu Nov 21 12:15:14 PST 2019
+base.0=/Users/glennierousseva/AndroidStudioProjects/groussevaGeoPictures/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

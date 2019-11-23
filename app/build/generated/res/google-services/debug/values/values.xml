@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">488464902643-t1k5rl9h106oq0nojn18076esjr4udlr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://groussevageopictures.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">488464902643</string>
+    <string name="google_api_key" translatable="false">AIzaSyA9n-yu3GMPdR-elxgd1f43-MrEoBjEFWc</string>
+    <string name="google_app_id" translatable="false">1:488464902643:android:f68390fe83d6280c0f8a86</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA9n-yu3GMPdR-elxgd1f43-MrEoBjEFWc</string>
+    <string name="google_storage_bucket" translatable="false">groussevageopictures.appspot.com</string>
+    <string name="project_id" translatable="false">groussevageopictures</string>
+</resources>
